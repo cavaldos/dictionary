@@ -108,7 +108,7 @@ function App() {
 
   useEffect(() => {
     // Đọc file CSV
-    fetch('/src/data/Lexique_filtered.csv')
+    fetch('/Lexique_filtered.csv')
       .then(response => response.text())
       .then(data => {
         const lines = data.split('\n')
